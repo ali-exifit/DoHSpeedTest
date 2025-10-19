@@ -22,17 +22,17 @@ const editButton = document.getElementById('editButton');
 const topWebsites = ['google.com', 'youtube.com', 'facebook.com', 'instagram.com', 'chatgpt.com', 'x.com', 'whatsapp.com', 'reddit.com', 'wikipedia.org', 'amazon.com', 'tiktok.com', 'pinterest.com', 'pornhub.com'];
 // Global variable to store chart instance
 const dnsServers = [{
-    name: "CNAME - Cloudflare", url: "https://exifit.ir/p2"
+    name: "CNAME - Cloudflare", url: "https://exifit.ir/p2", ips: ["104.21.67.151", "172.67.177.93"]
 }, {
-    name: "Fastly - Arvan", url: "https://f.proxit.ir/p2"
+    name: "Fastly - Arvan", url: "https://f.proxit.ir/p2", ips: ["151.101.3.52", "151.101.67.52", "151.101.131.52", "151.101.195.52"]
 }, {
-    name: "Fastly - ClouDNS", url: "https://f.llm.cloudns.pro/p2"
+    name: "Fastly - ClouDNS", url: "https://f.llm.cloudns.pro/p2", ips: ["151.101.3.52", "151.101.67.52", "151.101.131.52", "151.101.195.52"]
 }, {
-    name: "ClouDNS", url: "https://my.llm.cloudns.pro/my"
+    name: "ClouDNS", url: "https://my.llm.cloudns.pro/my", ips: ["172.66.47.46", "172.66.44.210"]
 }, {
-    name: "Cloudflare", url: "https://my.exifit.ir/my"
+    name: "Cloudflare", url: "https://my.exifit.ir/my", ips: ["104.21.67.151", "172.67.177.93"]
 }, {
-    name: "Arvan", url: "https://my.proxit.ir/my"
+    name: "Arvan", url: "https://my.proxit.ir/my", ips: ["172.66.47.46", "172.66.44.210"]
 }];
 
 let dnsChart;
